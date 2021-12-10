@@ -1,0 +1,94 @@
+.userText {
+  color: #ffffff !important;
+  text-align: center !important;
+  white-space: pre-line;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif !important;
+}
+
+.userContainer {
+  display: block !important;
+  white-space: pre-line;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif !important;
+}
+
+.item {
+  width: 400px;
+  /* height: 450px; */
+  height: auto !important;
+  background-color: #ffffff;
+  margin: 5px;
+  border-radius: 5px !important;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif !important;
+  overflow-y: auto;
+}
+
+.fxcontainer {
+  width: 90%;
+  height: 80vh !important;
+  color: #00297a;
+  display: flex !important;
+  overflow: auto;
+  margin-top: 30px !important;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif !important;
+}
+
+.userNameItem {
+  height: auto !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+
+  align-items: center !important;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", sans-serif !important;
+}
+
+/* Hide the scrollbar byu still allow scroll : Chrome, Safari and Opera */
+.fxcontainer::-webkit-scrollbar {
+  display: none;
+}
+/* Hide the scrollbar byu still allow scroll :  IE, Edge and Firefox */
+.fxcontainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.articleTitle {
+  margin: 3px !important;
+  margin-bottom: 5px !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  background-color: #00297a !important;
+  color: #ffffff !important;
+  border-radius: 5px !important;
+}
+
+.articleImage {
+  margin: 10px !important;
+  margin-top: 5px !important;
+  max-width: 300px !important;
+  max-height: 100px !important;
+  width: auto !important;
+  height: auto !important;
+  border-radius: 5px !important;
+}
+
+.articleContent {
+  margin: 5px !important;
+  color: #41414b !important;
+}
+
+p {
+  font-size: 12px !important;
+}
+
+.articleURL {
+  margin-left: 20px !important;
+  margin-bottom: 20px !important;
+}
+.articleTitleContent {
+  margin: 3px !important;
+}

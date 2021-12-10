@@ -1,0 +1,32 @@
+<!-- <div class="wrapper"> -->
+
+<!-- <div class="page-header section-dark" style="background-image: url('assets/img/okta_blue_bg.png')"> -->
+<!-- <h1><img src="assets/img/okta_japan_white_medium.png" alt="" class="responsive"></h1> -->
+
+<div class="page-header" style="background-image: url('assets/img/okta_blue_bg.png')">
+  <!-- <div class="page-header" style="background-color: #00297A"> -->
+
+  <div class="fxcontainer" fxLayout="row wrap" fxLayoutAlign="center">
+    <div class="item userNameItem" fxFlex="0 0 90%">ようこそ <h1>{{this.OktaGetTokenService.strUserName}}</h1>
+      {{ strLocationName }} <img src="{{ imgWeather }}"> {{ strTempNow }} ℃
+      <!-- <a class="btn btn-danger btn-round" class="btn btn-danger btn-round" id="login" (click)="test()">Test</a> -->
+    </div>
+    <div class="item" *ngFor="let articles of arrNewsArticles">
+      <div class="articleTitle">
+        <h2 class="articleTitleContent">{{ articles.title }}</h2>
+      </div>
+      <div>
+      <img src="{{ articles.image }}" class="articleImage">
+      </div>
+
+      <div class="articleContent">
+        <p>{{ articles.description }}</p>
+      </div>
+      <div>
+        <a href="{{ articles.url }}" target="_blank" class="articleURL">記事全文</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- </div> -->

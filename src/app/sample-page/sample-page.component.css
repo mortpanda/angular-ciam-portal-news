@@ -1,0 +1,52 @@
+.userText {
+  color: #ffffff !important;
+  text-align: center !important;
+  white-space: pre-line;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+ "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
+.userContainer{
+  display: block!important;
+  white-space: pre-line;font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+  "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  margin: 5px;
+  border-radius: 5px!important;
+  font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+ "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
+.fxcontainer {
+  width: 90%;
+  height: 80vh!important;
+  color: #00297a;
+   display: flex!important;
+  overflow:auto;
+  margin-top: 30px!important;
+  
+}
+
+.userNameItem{
+  height: auto!important;
+  background-color: transparent!important;
+  color: #FFFFFF!important;
+ align-items: center!important;
+ font-family: "ABCWhyte Book", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu",
+ "Cantarell", "Helvetica Neue", sans-serif!important;
+}
+
+/* Hide the scrollbar byu still allow scroll : Chrome, Safari and Opera */
+.fxcontainer::-webkit-scrollbar {
+  display: none;
+}
+/* Hide the scrollbar byu still allow scroll :  IE, Edge and Firefox */
+.fxcontainer{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
